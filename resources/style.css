@@ -4,10 +4,6 @@
     font-family: sans-serif;
     
 }
-html{
-    
-     
-}
 
 .banner {
     width: 100%;
@@ -191,7 +187,8 @@ footer {
 
     .banner {
         background-image: none; 
-           
+        height: fit-content;
+        
     }
     .content {
         margin: auto;
@@ -208,5 +205,9 @@ footer {
     .content p{
         font-size: 20px;
         margin: 10%;
+    }
+
+    .rights {
+        font-size: 11px;
     }
 }
